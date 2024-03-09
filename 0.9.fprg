@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 04:16:31 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MTA6MTkgIjszMjg3"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MTA6MzggIjsxO1l1c3VmeG8namE7TEFQVE9QLUc4VEdSTVY0OzIwMjMtMTAtMjY7IjA0OjA1OjM3ICI7MC44LmZwcmc7NzQzMg=="/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MTY6MzEgIjsxOzMzOTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="d" expression="c"/>
+            <assign variable="c" expression="b"/>
+            <assign variable="b" expression="a"/>
+            <assign variable="a" expression="d"/>
+            <output expression="&quot;A&quot; &amp; a" newline="True"/>
+            <output expression="&quot;B&quot; &amp; b" newline="True"/>
+            <output expression="&quot;C&quot; &amp; c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

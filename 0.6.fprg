@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 04:01:48 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDM6NTM6MjcgIjszMjky"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MDE6NDggIjsxOzMzOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v1" type="Integer" array="False" size=""/>
+            <declare name="v2" type="Integer" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="s2" type="Integer" array="False" size=""/>
+            <declare name="t" type="Integer" array="False" size=""/>
+            <output expression="&quot;V1 ni kiriting: &quot;" newline="True"/>
+            <input variable="v1"/>
+            <output expression="&quot;V2 ni kiriting: &quot;" newline="True"/>
+            <input variable="v2"/>
+            <output expression="&quot;T kiriting: &quot;" newline="True"/>
+            <input variable="t"/>
+            <assign variable="s" expression="v1*t"/>
+            <assign variable="s2" expression="v2*t"/>
+            <output expression="&quot;Masofa: &quot; &amp; s+s2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

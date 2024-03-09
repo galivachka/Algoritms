@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 04:30:55 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6Mjc6MzAgIjszMjg4"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6Mjc6MzMgIjsxO1l1c3VmeG8namE7TEFQVE9QLUc4VEdSTVY0OzIwMjMtMTAtMjY7IjA0OjI1OjI3ICI7MS41LmZwcmc7NzQzNA=="/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MzA6NTUgIjsyOzMzOTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a&gt;0">
+                <then>
+                    <output expression="a*5" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a=0">
+                        <then>
+                            <output expression="a+7" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="a/3" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

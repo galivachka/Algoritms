@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 03:45:43 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDM6NDM6MzMgIjszMjg4"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDM6NDU6NDMgIjsxOzMzOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;A son&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B son&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Natija: &quot; &amp; a*b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

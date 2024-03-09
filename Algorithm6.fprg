@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-19 11:36:07 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6MDk6NDYgIjszMjk1"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6MDk6NTAgIjsxO1l1c3VmeG8namE7TEFQVE9QLUc4VEdSTVY0OzIwMjMtMTAtMTk7IjExOjAwOjI5ICI7QWxnb3JpdGhtMi5mcHJnOzgyNjU="/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6MzY6MDcgIjsxOzM0MDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son" type="Integer" array="False" size=""/>
+            <input variable="son"/>
+            <declare name="son2" type="Integer" array="False" size=""/>
+            <input variable="son2"/>
+            <declare name="son3" type="Integer" array="False" size=""/>
+            <input variable="son3"/>
+            <if expression="son&gt;son2">
+                <then>
+                    <if expression="son&gt;son3">
+                        <then>
+                            <output expression="son" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="son3" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="son2&gt;son3">
+                        <then>
+                            <output expression="son2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="son3" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

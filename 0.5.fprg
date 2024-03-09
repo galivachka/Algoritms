@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 03:53:22 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDM6NDU6NTMgIjszMjky"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDM6NTM6MjIgIjsxOzMzOTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;X ni kirgazin&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;A ni kirgazin&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Y ni kirgazin&quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;B ni kirgazin&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Farqi: &quot; &amp; x-y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

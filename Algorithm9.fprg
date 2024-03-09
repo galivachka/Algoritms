@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-19 11:46:48 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6NDA6NTYgIjszMjkx"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6NDA6NTggIjsxO1l1c3VmeG8namE7TEFQVE9QLUc4VEdSTVY0OzIwMjMtMTAtMTk7IjExOjAwOjI5ICI7QWxnb3JpdGhtMi5mcHJnOzgyNjg="/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6NDY6NDggIjsxOzM0MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son" type="Integer" array="False" size=""/>
+            <input variable="son"/>
+            <declare name="son2" type="Integer" array="False" size=""/>
+            <input variable="son2"/>
+            <if expression="son&lt;son2">
+                <then>
+                    <output expression="&quot;A kichick hoz : &quot; &amp;son-son2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;B kattahoz:  &quot; &amp;son2+son" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot; A Kichick: &quot;&amp;son2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

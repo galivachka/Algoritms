@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-19 11:40:30 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6MzY6MzEgIjszMjg5"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6MzY6MzQgIjsxO1l1c3VmeG8namE7TEFQVE9QLUc4VEdSTVY0OzIwMjMtMTAtMTk7IjExOjAwOjI5ICI7QWxnb3JpdGhtMi5mcHJnOzgyNjc="/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0xOTsiMTE6NDA6MzAgIjsxOzMzOTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son" type="Integer" array="False" size=""/>
+            <input variable="son"/>
+            <declare name="son2" type="Integer" array="False" size=""/>
+            <input variable="son2"/>
+            <if expression="son&gt;son2">
+                <then>
+                    <output expression="son" newline="True"/>
+                </then>
+                <else>
+                    <output expression="son2" newline="True"/>
+                </else>
+            </if>
+            <output expression="son" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

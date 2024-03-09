@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 04:28:47 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6Mjc6MzAgIjszMjg4"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6Mjc6MzMgIjsxO1l1c3VmeG8namE7TEFQVE9QLUc4VEdSTVY0OzIwMjMtMTAtMjY7IjA0OjI1OjI3ICI7MS41LmZwcmc7NzQzNA=="/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6Mjg6NDcgIjsxOzM0MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;b &amp;&amp; a&lt;c">
+                <then>
+                    <output expression="&quot;Birinchi son ortacha&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="b&gt;a &amp;&amp; b&lt;c">
+                        <then>
+                            <output expression="&quot;Ikkinchi son ortacha&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="c&gt;a &amp;&amp; c&lt;b">
+                                <then>
+                                    <output expression="&quot;Uchinchi son ortacha&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

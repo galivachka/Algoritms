@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 04:24:55 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MjE6MjUgIjszMjg2"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MjQ6NTUgIjsxOzM0MDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="narx" type="Integer" array="False" size=""/>
+            <declare name="kg" type="Integer" array="False" size=""/>
+            <input variable="narx"/>
+            <input variable="kg"/>
+            <if expression="kg&gt;10">
+                <then>
+                    <output expression="(narx*kg)/2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="narx * kg" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

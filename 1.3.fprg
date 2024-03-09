@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 04:20:57 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MTg6NDMgIjszMjky"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNjsiMDQ6MjA6NTcgIjsxOzMzOTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;b &amp;&amp; a&gt;c">
+                <then>
+                    <output expression="&quot;Birinchi son katta&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="b&gt;a &amp;&amp; b&gt;c">
+                        <then>
+                            <output expression="&quot;Ikkinchi son katta&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="c&gt;a &amp;&amp; c&gt;b">
+                                <then>
+                                    <output expression="&quot;Uchinchi son katta&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

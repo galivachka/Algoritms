@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Yusufxo'ja"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-25 03:42:36 "/>
+        <attribute name="created" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNTsiMDI6NTc6MDcgIjszMjky"/>
+        <attribute name="edited" value="WXVzdWZ4bydqYTtMQVBUT1AtRzhUR1JNVjQ7MjAyMy0xMC0yNTsiMDM6NDI6MzYgIjsxOzMzOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="random(20)"/>
+            <output expression="&quot;Enter Son&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a=b">
+                <then>
+                    <output expression="&quot;Bir xil oylapmiz Qoyil!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Notog'ri&quot;" newline="True"/>
+                    <output expression="&quot;Men Oylagan Son: &quot; &amp; a" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
